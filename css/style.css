@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background: #eee;
+	overflow: hidden;
+}
+.top{
+	margin: 20px auto;
+	text-align: center;
+	font-size: 24px;
+	
+}
+.carousel{
+	margin: 100px auto;
+	width: 1300px;
+	height: 300px;
+	position: relative;
+}
+.carousel ul li{
+	float: left;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	border:10px solid #fff;
+	transform-origin: 150px 600px;
+	overflow: hidden;
+}
+
+.carousel ul li img{
+	
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	
+}
+
+.button a{
+	position: absolute;
+	font-size: 50px;
+	text-decoration: none;
+	color: #fff;
+}
+.button a:hover{
+	color: #999;
+
+}
+.button .last{
+	top: 70px;
+	left: 50px;
+}
+.button .next{
+	top: 70px;
+	right: 50px;
+}
+.button .play{
+	top: -50px;
+	left: 50px;
+	font-size: 1em;
+	padding: 5px;
+	color: #000;
+	border: 1px solid #000;
+}
+.button .play:hover{
+	color: #888;
+}
