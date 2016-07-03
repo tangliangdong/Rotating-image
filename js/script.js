@@ -27,8 +27,8 @@ $(function(){
 	}
 
 	function configer () {
-		var img_ang = 4,
-		  	img_rotate_change = 4;
+		var img_ang = 6,
+		  	img_rotate_change = 6;
 
 		$imglist.transition({origin:origin});
 		$imglist.each(function(index) {
